@@ -4,7 +4,7 @@ This project is a solution for Round 1A of the Adobe "Connecting the Dots" Hacka
 
 ## Approach
 
-[cite_start]The solution uses a rule-based (heuristic) approach to analyze the structure of a PDF without relying on large machine learning models, ensuring it meets the strict performance and size constraints (<200MB model size, <10s execution)[cite: 695, 696].
+The solution uses a rule-based (heuristic) approach to analyze the structure of a PDF without relying on large machine learning models, ensuring it meets the strict performance and size constraints (<200MB model size, <10s execution).
 
 The core logic involves:
 1.  **Base Font Identification**: The script first identifies the most common font size in the document, which is assumed to be the main body text.
